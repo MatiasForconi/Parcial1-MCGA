@@ -2,14 +2,13 @@ import './style.css';
 import React from 'react';
 
 
-
 class Counters extends React.Component {
     constructor(props) {
     super(props);
     this.state = {
     count: 0
-        }
     }
+}
 
 upCount = (e) => {
     e.preventDefault();
@@ -46,25 +45,4 @@ render() {
  }
 }
 
-
-
-/*function Counters () {
-    return (
-<div className="Counters">
-<h1 className="countlist">Lista de contadores</h1>
-   <header className="App-counters">
-       <div className="buttons">
-       <button className="menos" type="submit">-</button>
-       
-       
-       <button className="mas" type="submit">+</button>
-        
-       <button className="delete" type="submit">Eliminar</button>
-        </div>
-</header>
-</div>
-    )
-    
-}
-*/
 export default Counters

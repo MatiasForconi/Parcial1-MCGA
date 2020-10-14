@@ -22,6 +22,7 @@ render() {
       <Switch>
         <Route exact path ="/home"><Home /></Route>
         <Route exact path ="/counters"><Counters /></Route>
+        <Route component={Home}/>
         </Switch>
       </div>
       </BrowserRouter>

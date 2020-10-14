@@ -1,5 +1,5 @@
 body {
-    background-color: grey;
+    background-color:rgb(0, 0, 0);
 }
 
 .App-counters {
@@ -16,6 +16,16 @@ h1.countlist {
     top: 2px;
     color: rgb(0, 0, 0);
 }
+
+
+input.name:hover {
+    background-color: rgb(92, 187, 48);
+}
+
+input.age:hover {
+    background-color: rgb(92, 187, 48);
+}
+
 .counters {
     margin-left: ;
     display: flex;
@@ -27,6 +37,7 @@ h1.countlist {
     font-size: 20px;
     font-weight: bold;
 }
+
 .down {
     width: 30px;
     height: 32px;
