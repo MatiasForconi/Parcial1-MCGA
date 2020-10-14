@@ -5,6 +5,6 @@
 }
 
 .App .menu {
-  color: #900;
   cursor: pointer;
+  text-decoration: none;
 }

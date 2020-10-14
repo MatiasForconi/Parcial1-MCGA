@@ -1,9 +1,11 @@
 import './style.css';
 import React from 'react';
-import { Form } from 'react-final-form';
-import StudentForm from './StudentForm'
+//import { Field } from 'react-final-form';
 
-class Home extends  React.Component{
+//import { Form } from 'react-final-form';
+//import StudentForm from './StudentForm'
+
+/*class Home extends  React.Component{
 
 
 onSubmit () {
@@ -29,19 +31,32 @@ render () {
         </div>
         )
     }
-}
+}*/
    
-/*
+
 function Home () {
     return (
-        <div className="Home">
-          <h1>Alumno</h1>
-             <header className="App-header">
-            
-            
-          </header>
-        </div>
+<div className="Home">
+<h1>Alumno</h1>
+   <header className="App-header">
+   <form className="Form">
+   <div>
+         <label>Nombre</label>
+         <input type={Text} placeholder= "nombre"></input>
+       </div>
+       <div>
+         <label>Año</label>
+         <input type={Text} placeholder= "año"></input>
+       </div>
+       <div>
+       <button className="save" type="submit">Guardar informacion</button>
+       </div>
+       <button className="add" type="submit">Agregar contador</button>
+</form>
+</header>
+</div>
     )
-    }
-*/
+    
+}
+
 export default Home

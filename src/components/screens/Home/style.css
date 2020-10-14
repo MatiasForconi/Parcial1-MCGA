@@ -1,8 +1,11 @@
 h1 {
   color:white;
+  position: relative;
+  top: 200px;
+  font-size: 40px;
 }  
 
-  .App-header {
+.App-header {
     background-color:black;
     min-height: 100vh;
     display: flex;
@@ -11,5 +14,23 @@ h1 {
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
-  }
+}
   
+.save {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  width: 250px;
+  height: 45px;  
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.add {
+  width: 250px;
+  height: 45px; 
+  background-color: rgb(81, 187, 20); 
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
